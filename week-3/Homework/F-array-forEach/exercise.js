@@ -9,6 +9,30 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
+/*function Numbers(number) {
+  if (number % 3 === 0) {
+    console.log("Fizz");
+  } else if (number % 5 === 0) {
+    console.log("Buzz");
+  } else if (number % 15 === 0) {
+    console.log("FizzBuzz");
+  } else {
+    console.log(number);
+  }
+}*/
+
+var result = arr.forEach(number => {
+  if (number % 3 === 0) {
+   console.log("Fizz");
+  } else if (number % 5 === 0) {
+    console.log("Buzz");
+  } else if (number % 15 === 0) {
+    console.log("FizzBuzz");
+  } else {
+    console.log(number);
+  }
+});
+
 /* EXPECTED OUTPUT */
 
 /*

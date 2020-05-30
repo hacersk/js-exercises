@@ -12,8 +12,9 @@ var stationTransportOptionsPairs = [
   ["Tower bridge", ["tube", "bus"]],
   ["Greenwich", ["tube", "bus", "river boat"]]
 ];
-
-var stationsWithRiverBoat; // <-- Complete this statement
+var stationsWithRiverBoat = stationTransportOptionsPairs.filter(route => route[1].includes("river boat"))
+.map(route => route[0]);
+// <-- Complete this statement
 
 console.log(stationsWithRiverBoat);
 

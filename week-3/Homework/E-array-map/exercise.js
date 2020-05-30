@@ -3,3 +3,6 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
+var newArray = numbers.map(number => number*100);
+
+console.log(newArray);
